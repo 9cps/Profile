@@ -34,3 +34,8 @@
     $('.social-links a').tooltip();
 
 })(jQuery);
+
+// PAGE UP
+$("#page-up").click(function () {
+  $("#home").click();
+});
