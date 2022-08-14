@@ -589,7 +589,7 @@ pre code {
 
 .container-box {
     width: 100%;
-    padding: 50px;
+    padding: 3rem;
     margin: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -608,11 +608,11 @@ pre code {
         max-width: 360px;
         margin: 0 auto;
     }
-    .custom-btn-logo{
-        margin-left: -.8rem;
-    }
     .padding-fix{
         margin-top: 4rem;
+    }
+    .rs-logo{
+        margin-left: -2rem;
     }
 }
 
@@ -627,6 +627,9 @@ pre code {
     .padding-fix{
         margin-top: 4rem;
     }
+    .rs-logo{
+        margin-left: 0rem;
+    }
 }
 
 @media (min-width:768px) {
@@ -640,6 +643,9 @@ pre code {
     .padding-fix{
         margin-top: 4rem;
     }
+    .rs-logo{
+        margin-left: 0rem;
+    }
 }
 
 @media (min-width:992px) {
@@ -652,6 +658,9 @@ pre code {
     .container-box {
         max-width: 960px
     }
+    .rs-logo{
+        margin-left: 0rem;
+    }
 }
 
 @media (min-width:1200px) {
@@ -663,6 +672,9 @@ pre code {
     }
     .container-box {
         max-width: 1140px
+    }
+    .rs-logo{
+        margin-left: 0rem;
     }
 }
 

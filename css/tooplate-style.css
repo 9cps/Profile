@@ -11,7 +11,7 @@ body {
 }
 
 .full-screen {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .small-text {
@@ -100,7 +100,8 @@ b, strong {
   font-weight: bold;
   border-radius: 10px;
   margin-bottom: 20px;
-  padding: 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 14px;
   line-height: normal;
   overflow: hidden;
@@ -583,10 +584,6 @@ b, strong {
   .color-mode {
     display: none;
   }
-
-  .about-image {
-    margin-top: 2em;
-  }
   
   .mobile-mt-2,
   .contact-form {
@@ -595,6 +592,10 @@ b, strong {
 
   .contact-info {
     padding: 0 2rem;
+  }
+  
+  .custom-btn-logo{
+    margin-left: 10px !important;
   }
 }
 @media (max-width: 767px) {
