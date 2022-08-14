@@ -510,6 +510,8 @@ mark {
 
 .img-fluid {
     max-width: 100%;
+    display: flex;
+    margin: 0 auto;
     height: auto
 }
 
@@ -594,6 +596,25 @@ pre code {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+.fix-height-skill{
+    height: 350px !important;
+}
+
+@media (min-width:390px) {
+    .container {
+        max-width: 380px
+    }
+    .container-box {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .custom-btn-logo{
+        margin-left: -.8rem;
+    }
+    .padding-fix{
+        margin-top: 4rem;
+    }
+}
 
 @media (min-width:576px) {
     .container {
@@ -602,6 +623,9 @@ pre code {
     .container-box {
         max-width: 540px;
         margin: 0 auto;
+    }
+    .padding-fix{
+        margin-top: 4rem;
     }
 }
 
@@ -613,11 +637,17 @@ pre code {
         max-width: 720px;
         margin: 0 auto;
     }
+    .padding-fix{
+        margin-top: 4rem;
+    }
 }
 
 @media (min-width:992px) {
     .container {
         max-width: 960px
+    }
+    .padding-fix{
+        margin-top: 0px;
     }
     .container-box {
         max-width: 960px
@@ -627,6 +657,9 @@ pre code {
 @media (min-width:1200px) {
     .container {
         max-width: 1140px
+    }
+    .padding-fix{
+        margin-top: 0px;
     }
     .container-box {
         max-width: 1140px
@@ -10867,6 +10900,10 @@ button.bg-dark:hover {
     .text-sm-center {
         text-align: center !important
     }
+
+    .navbar-collapse{
+        margin-top: 1rem;
+    }
 }
 
 @media (min-width:768px) {
@@ -10880,6 +10917,10 @@ button.bg-dark:hover {
 
     .text-md-center {
         text-align: center !important
+    }
+
+    .navbar-collapse{
+        margin-top: 0rem;
     }
 }
 
@@ -10895,6 +10936,10 @@ button.bg-dark:hover {
     .text-lg-center {
         text-align: center !important
     }
+
+    .navbar-collapse{
+        margin-top: 0rem;
+    }
 }
 
 @media (min-width:1200px) {
@@ -10908,6 +10953,10 @@ button.bg-dark:hover {
 
     .text-xl-center {
         text-align: center !important
+    }
+    
+    .navbar-collapse{
+        margin-top: 0rem;
     }
 }
 
