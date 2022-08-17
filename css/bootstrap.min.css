@@ -686,6 +686,21 @@ pre code {
     margin-left: auto
 }
 
+.tool-icon{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding: 1rem 1rem 4.5rem 1rem;
+    margin: 0 auto;
+    width: 50%;
+    height: 60px;
+}
+
+.center-content{
+    text-align: center;
+    margin: 0 auto;
+}
+
 .row {
     display: -ms-flexbox;
     display: flex;
