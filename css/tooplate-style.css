@@ -56,6 +56,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px;
 }
 
+.col-4 h6 {
+  padding: 5px;
+  height: 30px;
+  color: #353535;
+  /* background: rgb(54,131,158);
+  background: linear-gradient(277deg, rgba(54,131,158,1) 0%, rgba(122,158,231,1) 50%, rgba(111,129,173,1) 100%); */
+  border-radius: 20px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
 h1 {
   color: #212121;
   font-size: 2.8em;
@@ -615,6 +625,7 @@ b, strong {
     text-align: center;
     justify-content: center;
     padding-bottom: 20px;
+    background: white;
   }
 
   .navbar-expand-sm .navbar-nav .nav-link {
@@ -708,7 +719,7 @@ b, strong {
   margin-top: 10px;
   content: "";
   width: 1px;
-  height: 130px;
+  height: 100px;
   background-color: rgb(129, 129, 129);
   display: block;
   border-radius: 10px;
