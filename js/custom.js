@@ -39,3 +39,26 @@
 $("#page-up").click(function () {
   $("#home").click();
 });
+
+// Responsive icon box
+$(window).resize(function () {
+  var widthWindow = $(window).width();
+  if (widthWindow <= '767') {
+      $('#coding-box').removeAttr("class");
+      $('#coding-box').attr("class", "col-12");
+      $('#framwork-box').removeAttr("class");
+      $('#framwork-box').attr("class", "col-12");
+      $('#database-box').removeAttr("class");
+      $('#database-box').attr("class", "col-12");
+  }
+  else
+  {
+    $('#coding-box').removeAttr("class");
+    $('#coding-box').attr("class", "col-4");
+    $('#framwork-box').removeAttr("class");
+    $('#framwork-box').attr("class", "col-4");
+    $('#database-box').removeAttr("class");
+    $('#database-box').attr("class", "col-4");
+  }
+});
+$(window).trigger('resize');
