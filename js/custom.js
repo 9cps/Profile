@@ -40,6 +40,31 @@ $("#page-up").click(function () {
   $("#home").click();
 });
 
+function openNav() {
+  $('#nav_contact').attr('ref', 'close'); //set to open
+  document.getElementById("mySidenav").style.width = "50px";
+  $('#nav_contact').css('background-color', '#ffc200');
+}
+
+function closeNav() {
+  $('#nav_contact').attr('ref', 'open'); //set to open
+  document.getElementById("mySidenav").style.width = "0";
+  $('#nav_contact').removeAttr('style');
+}
+
+// Open first page close
+setTimeout(closeNav(), 10000);
+
+// Open and close nav contact
+$("#nav_contact").click(function() {
+  const key = $('#nav_contact').attr('ref');
+  if(key == 'open'){
+    openNav();
+  }else{
+    closeNav();
+  }
+});
+
 // Responsive icon box
 $(window).resize(function () {
   var widthWindow = $(window).width();
