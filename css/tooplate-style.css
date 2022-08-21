@@ -710,7 +710,7 @@ b, strong {
 }
 
 .sidenav {
-  height: 50%;
+  height: 50% !important;
   width: 50px;
   position: fixed;
   z-index: 1;
