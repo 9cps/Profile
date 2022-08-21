@@ -36,6 +36,10 @@
 })(jQuery);
 
 // PAGE UP
+$("#brand-logo").click(function () {
+  $("#home").click();
+});
+
 $("#page-up").click(function () {
   $("#home").click();
 });

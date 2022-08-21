@@ -757,8 +757,8 @@ b, strong {
   color: #06C755 !important;
 }
 
-.icon-twitter:hover {
-  color: #55acee !important;
+.icon-git:hover {
+  color: #000 !important;
   transform: scale(1.5);
 }
 
