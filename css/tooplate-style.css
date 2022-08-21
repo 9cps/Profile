@@ -636,6 +636,10 @@ b, strong {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
+
+  .end-line{
+    display: block;
+  }
 }
 
 @media (max-width: 580px) {
@@ -667,6 +671,11 @@ b, strong {
   .navbar{
     background: white;
   }
+
+  .end-line{
+    display: none !important;
+  }
+
 }
 @media (max-width: 320px) {
   .animated-text {
@@ -692,6 +701,10 @@ b, strong {
   .social-links li {
     display: inline-block;
     vertical-align: top;
+  }
+
+  .end-line{
+    display: none !important;
   }
   
 }
