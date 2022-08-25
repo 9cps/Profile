@@ -35,6 +35,8 @@
 
 })(jQuery);
 
+// Click to download 
+
 // PAGE UP
 $("#brand-logo").click(function () {
   $("#home").click();
