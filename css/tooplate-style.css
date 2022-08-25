@@ -365,13 +365,14 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  background: #8a99b5;
   border-radius: 100%;
   position: absolute;
   width: 75px;
   height: 75px;
   line-height: 75px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .page-up-box {
@@ -710,7 +711,7 @@ b, strong {
 }
 
 .sidenav {
-  height: 50% !important;
+  height: auto !important;
   width: 50px;
   position: fixed;
   z-index: 1;
@@ -721,6 +722,7 @@ b, strong {
   transition: 0.5s;
   margin-left: 5px;
   padding-top: 60px;
+  padding-bottom: 60px;
   border-radius: 10px;
   text-align: center;
   transform: transform 1s ease-in-out;
