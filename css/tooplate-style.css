@@ -211,8 +211,8 @@ b, strong {
   transform: translate(0, 0);
 }
 .navbar[class*="headroom--not-top"] {
-  background: #ffffff;
-  border-bottom: 1px solid #f0f0f0;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -733,7 +733,8 @@ b, strong {
   z-index: 1;
   top: 15%;
   left: 0;
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
   overflow-x: hidden;
   transition: 0.5s;
   margin-left: 5px;
